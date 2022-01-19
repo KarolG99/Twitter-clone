@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+    .singleIconWrapper {
+        @apply flex items-center
+    }
+
+    .postIcon {
+        @apply w-5 mr-[7px]
+    }
+
+    .navIcon {
+        @apply w-7
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .listItem {
+        @apply border-b-[2px] border-navy px-2 py-0.5
+    }
+
+    .styled-button {
+        @apply w-full p-1.5 rounded-md text-white font-semibold my-2
+    }
+
+    .Modal {
+        @apply no-scrollbar fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]
+        rounded-3xl p-7 z-10 bg-navy w-[300px] max-h-[80vh] overflow-scroll mb-7
+    }
+
 }
