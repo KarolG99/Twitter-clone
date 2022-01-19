@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Twitter-clone/static/css/main.a929d0a0.css",
+    "main.js": "/Twitter-clone/static/js/main.d482b5cd.js",
+    "static/media/MyPage.png": "/Twitter-clone/static/media/MyPage.61a5d1a070633b5f5645.png",
+    "static/media/Memoji1.png": "/Twitter-clone/static/media/Memoji1.ac9ca09968e86d705024.png",
+    "index.html": "/Twitter-clone/index.html",
+    "static/media/twitter.svg": "/Twitter-clone/static/media/twitter.c73fbfc589ea0335fecb5c73b345a3ac.svg",
+    "static/media/retweet.svg": "/Twitter-clone/static/media/retweet.e431c3f21817c4389577a2d272fb3fc8.svg",
+    "main.a929d0a0.css.map": "/Twitter-clone/static/css/main.a929d0a0.css.map",
+    "main.d482b5cd.js.map": "/Twitter-clone/static/js/main.d482b5cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a929d0a0.css",
+    "static/js/main.d482b5cd.js"
+  ]
+}
